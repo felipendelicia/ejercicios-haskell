@@ -49,3 +49,6 @@ sumOfThree a b c = sum (deleteArrayDuplicates [a, b, c])
 
 areMultiples:: Int -> Int -> Bool
 areMultiples a b = (a `mod` b == 0) || (b `mod` a == 0)
+
+unitsDigit:: Int -> Int
+unitsDigit number = number `mod` 10

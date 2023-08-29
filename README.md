@@ -96,5 +96,11 @@ Funciones disponibles:
            <td>Int, Int</td>
            <td>Bool</td>
         </tr>
+        <tr>
+           <td>unitsDigit</td>
+           <td>Devuelve el digito de las unidades</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
     </tbody>
 </table>
