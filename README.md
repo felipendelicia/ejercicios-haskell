@@ -90,5 +90,11 @@ Funciones disponibles:
            <td>Int, Int, Int</td>
            <td>Int</td>
         </tr>
+        <tr>
+           <td>areMultiples</td>
+           <td>Verifica que dos numeros sean o no mutiplos</td>
+           <td>Int, Int</td>
+           <td>Bool</td>
+        </tr>
     </tbody>
 </table>
