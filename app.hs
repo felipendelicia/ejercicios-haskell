@@ -52,3 +52,6 @@ areMultiples a b = (a `mod` b == 0) || (b `mod` a == 0)
 
 unitsDigit:: Int -> Int
 unitsDigit number = number `mod` 10
+
+tensDigit:: Int -> Int
+tensDigit number = ((number `mod` 100) - unitsDigit number) `div` 10

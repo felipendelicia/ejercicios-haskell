@@ -102,5 +102,11 @@ Funciones disponibles:
            <td>Int</td>
            <td>Int</td>
         </tr>
+        <tr>
+           <td>tensDigit</td>
+           <td>Devuelve el digito de las decenas</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
     </tbody>
 </table>
