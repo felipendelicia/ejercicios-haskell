@@ -1,4 +1,4 @@
-# Haskell -- Guia 3
+# Haskell
 
 Ejercicios de haskell realizador para la materia "Algoritmos y estructuras de datos I" (UBA)
 
@@ -6,7 +6,7 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
 
     ghci app.hs
 
-Funciones disponibles:
+Guia 3:
 
 <table>
     <thead>
