@@ -6,7 +6,7 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
 
     ghci app.hs
 
-Guia 3:
+### Guia 3:
 
 <table>
     <thead>
@@ -106,6 +106,123 @@ Guia 3:
            <td>tensDigit</td>
            <td>Devuelve el digito de las decenas</td>
            <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>isInt</td>
+           <td>Devuelve true si el valor ingresado es un entero</td>
+           <td>Float</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>quadraticFunctionRootWithoutCParam</td>
+           <td>Devuelve la raiz diferente de 0 de una funcion cuadratica sin parametro C</td>
+           <td>Float, Float</td>
+           <td>Float</td>
+        </tr>
+        <tr>
+           <td>hasIntegerRootDiferentZero</td>
+           <td>Verifica si una cuadratica sin parametro C tiene una raiz distinta de 0</td>
+           <td>Float, Float</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>isPair</td>
+           <td>Devuelve true si es par</td>
+           <td>Int</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>g2</td>
+           <td>Ejemplo de funcion partida</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>f2</td>
+           <td>Ejemplo de funcion partida</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>allMinor</td>
+           <td>Verifica que para tres valores dados, la imagen de g2 es menor que la de f2</td>
+           <td>(Int, Int, Int)</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>isLeapYear</td>
+           <td>Verifica si dado un año es bisiesto</td>
+           <td>Int</td>
+           <td>Bool</td>
+        </tr>
+    </tbody>
+</table>
+
+### Guia 4:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Entrada</th>
+            <th>Salida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           <td>lastDigit</td>
+           <td>Devuelve el ultimo digito de un numero (unidades)</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>quitLastDigit</td>
+           <td>Quita el ultimo digito de un numero</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>digitsLength</td>
+           <td>Devuelve la cantidad de digitos de un numero</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>fibonacchi</td>
+           <td>Dado un numero devuelve el numero en esa posicion de la sucesion de fibonacci</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>entirePart</td>
+           <td>Devuelve la parte entera de un numero</td>
+           <td>Float</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>inpairSum</td>
+           <td>Devuelve la suma de la sucesion de numeros impares de la cantidad de elementos que se ingrese</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>midFactorial</td>
+           <td>Devuelve el factorial de un numero alternado de dos en dos (n * (n-2)!)</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>allDigitsEqual</td>
+           <td>Devuelve true si todos los digitos de un numero son iguales</td>
+           <td>Int</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>indexDigit</td>
+           <td>Te devuelve el digito en el indice especificado (empezando por el 1)</td>
+           <td>Int, Int</td>
            <td>Int</td>
         </tr>
     </tbody>
