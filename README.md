@@ -6,7 +6,7 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
 
     ghci app.hs
 
-### Guia 3:
+### Guia 3: Intro
 
 <table>
     <thead>
@@ -159,7 +159,7 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
     </tbody>
 </table>
 
-### Guia 4:
+### Guia 4: Recursion
 
 <table>
     <thead>
