@@ -9,6 +9,15 @@ isInt x = x == fromInteger (round x)
 quadraticFunctionRootWithoutCParam:: Float -> Float -> Float
 quadraticFunctionRootWithoutCParam a b = (-a) / b
 
+vectorSubtract :: (Float, Float) -> (Float, Float) -> (Float, Float)
+vectorSubtract (x1, y1) (x2, y2) = (x1 - x2, y1 - y2)
+
+pythagoras :: (Float, Float) -> Float
+pythagoras (x, y) = sqrt (x^2 + y^2)
+
+sumLastTwoDigits :: Integer -> Integer
+sumLastTwoDigits x = (x `mod` 10) + ((x `div` 10) `mod` 10)
+
 -- ejercicio 1
 f:: Int -> Int
 f 1 = 8
@@ -75,12 +84,48 @@ tensDigit:: Int -> Int
 tensDigit number = ((number `mod` 100) - unitsDigit number) `div` 10
 
 -- ejercicio 3
-
 hasIntegerRootDiferentZero:: Float -> Float -> Bool
 hasIntegerRootDiferentZero a b = isInt (quadraticFunctionRootWithoutCParam a b)
 
--- ejercicio 5
+-- ejercicio 4 A)
+internProduct :: (Float, Float) -> (Float, Float) -> Float
+internProduct (x1, y1) (x2, y2) = x1 * x2 + y1 * y2
 
+-- ejercicio 4 B)
+allCoordsMinor :: (Float, Float) -> (Float, Float) -> Bool
+allCoordsMinor (x1, y1) (x2, y2) = x1 < x2 && y1 < y2
+
+-- ejercicio 4 C)
+pointsDistance :: (Float, Float) -> (Float, Float) -> Float
+pointsDistance point1 point2 = pythagoras (vectorSubtract point1 point2)
+
+-- ejercicio 4 D)
+tripletSum :: (Int, Int, Int) -> Int
+tripletSum (x, y, z) = x + y + z
+
+-- ejercicio 4 E)
+sumOnlyMultiples :: (Int, Int, Int) -> Int -> Int
+sumOnlyMultiples (a, b, c) natural =
+  let sumIfMultiple x accumulator = if areMultiples x natural then x + accumulator else accumulator
+  in sumIfMultiple a (sumIfMultiple b (sumIfMultiple c 0))
+
+-- ejercicio 4 F)
+posFirstEven :: (Int, Int, Int) -> Int
+posFirstEven (a, b, c)
+  | even a = 1
+  | even b = 2
+  | even c = 3
+  | otherwise = 4
+
+-- ejercicio 4 G)
+createPair :: a -> b -> (a, b)
+createPair x y = (x, y)
+
+-- ejercicio 4 H)
+invert :: (a, b) -> (b, a)
+invert (x, y) = (y, x)
+
+-- ejercicio 5
 isPair:: Int -> Bool
 isPair number = number `mod` 2 == 0
 
@@ -98,6 +143,16 @@ allMinor:: (Int, Int, Int) -> Bool
 allMinor (x, y, z) = (f2 x > g2 x ) && (f2 y > g2 x ) && (f2 z > g2 z)
 
 -- ejercicio 6
-
 isLeapYear:: Int -> Bool
 isLeapYear year = (year `mod` 4 == 0) || (year `mod` 400 == 0)
+
+-- ejercicio 7
+distanceManhattan :: (Float, Float, Float) -> (Float, Float, Float) -> Float
+distanceManhattan (x1, y1, z1) (x2, y2, z2) = abs (x1 - x2) + abs (y1 - y2) + abs (z1 - z2)
+
+-- ejercicio 8
+compareNumbers :: Integer -> Integer -> Integer
+compareNumbers a b
+  | sumLastTwoDigits a < sumLastTwoDigits b = -1
+  | sumLastTwoDigits a > sumLastTwoDigits b = 1
+  | otherwise = 0

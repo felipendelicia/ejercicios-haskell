@@ -156,6 +156,84 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
            <td>Int</td>
            <td>Bool</td>
         </tr>
+        <tr>
+           <td>internProduct</td>
+           <td>Devuelve el producto interno de dos vectores en RxR</td>
+           <td>(Float, Float), (Float, Float)</td>
+           <td>Float</td>
+        </tr>
+        <tr>
+           <td>allCordsMinor</td>
+           <td>Devuelve true cuando todos los valores de la primera tupla son menores a los de la segunda</td>
+           <td>(Float, Float), (Float, Float)</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>vectorSubstract</td>
+           <td>Devuelve la resta entre dos vectores de R2</td>
+           <td>(Float, Float), (Float, Float)</td>
+           <td>(Float, Float)</td>
+        </tr>
+        <tr>
+           <td>pythagoras</td>
+           <td>Devuelve la hipotenusa dada la distancia de ambos catetos -- analogo a la norma de un vector dadas sus componentes x e y</td>
+           <td>(Float, Float)</td>
+           <td>Float</td>
+        </tr>
+        <tr>
+           <td>pointsDistance</td>
+           <td>Devuelve la distancia entre dos puntos de R2</td>
+           <td>(Float, Float), (Float, Float)</td>
+           <td>Float</td>
+        </tr>
+        <tr>
+           <td>tripletSum</td>
+           <td>Devuelve la suma de una terna de numeros</td>
+           <td>(Int, Int, Int)</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>sumOnlyMultiples</td>
+           <td>Devuelve la suma de los elementos de la tupla multiplos de un numero natural</td>
+           <td>(Int, Int, Int), Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>posFirstEven</td>
+           <td>Devuelve la posicion del primer elemento de la tupla par</td>
+           <td>(Int, Int, Int)</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>createPair</td>
+           <td>Devuelve una tupla a partir de los dos valores dados</td>
+           <td>a, b</td>
+           <td>(a, b)</td>
+        </tr>
+        <tr>
+           <td>invert</td>
+           <td>Devuelve una tupla invertida</td>
+           <td>(a, b)</td>
+           <td>(b, a)</td>
+        </tr>
+        <tr>
+           <td>distanceManhattan</td>
+           <td>Devuelve la sumatoria de la resta de los valores absolutos de cada elemento de la tupla</td>
+           <td>(Float, Float, Float), (Float, Float, Float)</td>
+           <td>Float</td>
+        </tr>
+        <tr>
+           <td>sumLastTwoDigits</td>
+           <td>Devuelve la suma de los ultimos dos digitos</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
+        <tr>
+           <td>compareNumbers</td>
+           <td>Devuelve 0, 1 o -1 segun la suma de los dos ultimos digitos de a y b</td>
+           <td>Int, Int</td>
+           <td>Int</td>
+        </tr>
     </tbody>
 </table>
 
