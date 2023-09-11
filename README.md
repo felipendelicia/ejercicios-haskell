@@ -303,5 +303,11 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
            <td>Int, Int</td>
            <td>Int</td>
         </tr>
+        <tr>
+           <td>isDivisible</td>
+           <td>Dice  si un entero es divisible por otro</td>
+           <td>Int, Int</td>
+           <td>Bool</td>
+        </tr>
     </tbody>
 </table>

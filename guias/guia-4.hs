@@ -23,6 +23,13 @@ entirePart number
     | number < 1 = 0
     | otherwise = 1 + entirePart (number - 1)
 
+-- ejercicio 3
+isDivisible:: Int -> Int -> Bool
+isDivisible dividend divider
+    | dividend == 0 = True
+    | dividend < divider = False
+    | otherwise = isDivisible (dividend - divider) divider
+
 -- ejercicio 4
 inpairSum:: Int -> Int
 inpairSum 0 = 0
