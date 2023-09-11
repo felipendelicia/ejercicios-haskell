@@ -41,6 +41,12 @@ midFactorial 0 = 1
 midFactorial 1 = 1
 midFactorial n = n * midFactorial(n - 2)
 
+-- ejercicio 6
+digitsSum:: Int -> Int
+digitsSum number
+    | number == 0 = 0
+    | otherwise = lastDigit number + digitsSum (quitLastDigit number)
+
 -- ejercicio 7
 allDigitsEqual:: Int -> Bool
 allDigitsEqual number

@@ -309,5 +309,11 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
            <td>Int, Int</td>
            <td>Bool</td>
         </tr>
+        <tr>
+           <td>digitsSum</td>
+           <td>Devuelve la suma de todos los digitos de un numero</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
     </tbody>
 </table>
