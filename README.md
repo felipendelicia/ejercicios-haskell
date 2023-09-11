@@ -4,7 +4,7 @@ Ejercicios de haskell realizador para la materia "Algoritmos y estructuras de da
 
 Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del repositorio:
 
-    ghci app.hs
+    ghci /guias/guia-[numero de guia].hs
 
 ### Guia 3: Intro
 
