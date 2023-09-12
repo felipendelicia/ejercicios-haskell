@@ -315,5 +315,17 @@ Para ejecutar las funciones, ejecutar la siguiente linea en el directorio del re
            <td>Int</td>
            <td>Int</td>
         </tr>
+        <tr>
+           <td>isCapicua</td>
+           <td>Devuelve true si el numero es capicua</td>
+           <td>Int</td>
+           <td>Bool</td>
+        </tr>
+        <tr>
+           <td>reverseNumber</td>
+           <td>Da vuelta el numero ingresado</td>
+           <td>Int</td>
+           <td>Int</td>
+        </tr>
     </tbody>
 </table>
