@@ -8,7 +8,7 @@ Para ejecutar las funciones de las guias, ejecutar la siguiente linea en el dire
 
 Para ejecutar las funciones del simulacro de parcial, ejecutar la siguiente linea:
 
-   ghci simulacro.hs
+    ghci simulacro.hs
 
 ### Guia 3: Intro
 
