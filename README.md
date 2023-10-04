@@ -1,10 +1,14 @@
 # Haskell
 
-Ejercicios de haskell realizador para la materia "Algoritmos y estructuras de datos I" (UBA)
+Ejercicios de haskell realizador para la materia "Introduccion a la programacion" (UBA)
 
 Para ejecutar las funciones de las guias, ejecutar la siguiente linea en el directorio del repositorio:
 
-    ghci /guias/guia-[numero de guia].hs
+    ghci /guias/[numero de guia].hs
+
+Por ejemplo, para ejecutar la guia tres, escribo:
+
+    ghci /guias/tres.hs
 
 Para ejecutar las funciones del simulacro de parcial, ejecutar la siguiente linea:
 
